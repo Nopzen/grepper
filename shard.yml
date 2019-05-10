@@ -1,0 +1,13 @@
+name: grepper
+version: 1.0.0
+
+authors:
+  - Lars Krieger <lars.krieger@gmail.com>
+
+targets:
+  grepper:
+    main: src/main.cr
+
+crystal: 0.28.0
+
+license: MIT
