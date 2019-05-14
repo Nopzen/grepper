@@ -28,9 +28,7 @@ module Grepper
     }
   end
 
-  startTime = Time.now()
-
-  puts startTime
+  queryStartTime = Time.now()
 
   if query.size <= 0
     begin
@@ -53,8 +51,7 @@ module Grepper
     puts "#{file[:filename].colorize(:green)}:#{file[:number].colorize(:green)} #{file[:line].strip}"
   end
 
-endTime = Time.now()
-executionTime = endTime - startTime
+  executionTime = Time.now() - queryStartTime
 
-puts "Query execution time: #{executionTime.microseconds} µs"
+  puts "Query execution time: #{executionTime.microseconds.colorize(:green).mode(:bold)} µs"
 end
