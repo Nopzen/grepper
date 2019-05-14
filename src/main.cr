@@ -1,5 +1,6 @@
 require "option_parser"
 require "colorize"
+require "time"
 require "./searcher"
 
 module Grepper
@@ -27,6 +28,10 @@ module Grepper
     }
   end
 
+  startTime = Time.now()
+
+  puts startTime
+
   if query.size <= 0
     begin
       raise "Error: You forgot to add a query run the --help to see options"
@@ -47,4 +52,9 @@ module Grepper
   result.each do |file|
     puts "#{file[:filename].colorize(:green)}:#{file[:number].colorize(:green)} #{file[:line].strip}"
   end
+
+endTime = Time.now()
+executionTime = endTime - startTime
+
+puts "Query execution time: #{executionTime.microseconds} µs"
 end
