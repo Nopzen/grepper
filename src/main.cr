@@ -42,14 +42,13 @@ module Grepper
   search = Searcher.new Dir.glob("#{directory}/**/*#{extention}")
   result = search.getResult(query)
 
+  executionTime = Time.now() - queryStartTime
+
   result.each do |file|
     puts "#{file[:filename].colorize(:green)}:#{file[:number].colorize(:green)} #{file[:line].strip}"
   end
 
-  executionTime = Time.now() - queryStartTime
-
   puts "
-  
   Search through #{search.getDataSetSize()} files.
   Lines containing query '#{query}': #{result.size}
 
