@@ -1,9 +1,22 @@
-# grepper
+# Grepper
 A simple commandline tool to search recursively through files of given file extention
 
-## Installation
+## Supported Systems
+  - Mac OS version: 10.12.6 or higher
 
-TODO: Write installation instructions here
+## Requirements
+  - [Crystal](https://crystal-lang.org/) version: 0.28.0 or higher
+
+## Installation
+Current version v1.0.0 have only been tested on OSX 10.12.6 but it is possible to [download the source code](https://github.com/Nopzen/grepper/archive/v1.0.0.tar.gz) for version v1.0.0 and compile it with Crystal your self.
+
+### Self install
+TODO: Write manual installation guide
+
+### OSX - With Homebrew
+  1. `$ brew tap nopzen/grepper`
+  2. `$ brew install grepper`
+  3. run `$ grepper -h` to see if its installed if not [create a issue here](https://github.com/Nopzen/grepper/issues)
 
 ## Usage
 Defaults:
