@@ -18,7 +18,7 @@ class Searcher
 
     result
   end
-
+  
   def getDataSetSize
     @files.size
   end
