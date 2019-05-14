@@ -26,8 +26,8 @@ extention: if --extention is not defined the default would be set to .txt.
 Usage: grepper [query] -- [arguments]
 
  - -p=PATH, --path=PATH             Define path to search for files in
- - -e=EXT, --extention=EXT          Define file extention should be read (Required)
- - -q=QUERY, --query                Define the string to search for
+ - -e=EXT, --extention=EXT          Define file extention should be read
+ - -q=QUERY, --query                Define the string to search for (Required)
  - -h, --help                       Show this help
 
 ## Development
