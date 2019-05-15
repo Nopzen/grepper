@@ -12,12 +12,16 @@ A simple commandline tool to search recursively through files of given file exte
 ## Installation
 
 ### Install source from tarball
-[download the source code: version v1.0.1](https://github.com/Nopzen/grepper/archive/v1.0.1.tar.gz) and unpack the tarball, from here you can enter the directory and run `$ make`
+[download the source code: version v1.0.1](https://github.com/Nopzen/grepper/archive/v1.0.1.tar.gz) and unpack the tarball, from here you can enter the directory and run the following command
+
+1. To build the binary run `$ make`
+2. To install the binary run `$ sudo make install`
 
 ### Install source from git
 1. Clone the repository `$ git clone git@github.com:Nopzen/grepper.git`
 2. Enter the directory `$ cd grepper`
-3. Run the make `$ make`
+3. To build the binary run `$ make`
+4. To install the binary run `$ sudo make install`
 
 Both of the installations above should install the binary in your `/usr/local/bin` by default, unless `$DESTDIR` or `$prefix` is defined. See the makefile for more information regarding final location of the bin.
 
