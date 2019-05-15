@@ -1,5 +1,5 @@
 NAME=grepper
-VERSION=1.0.0
+VERSION=1.0.1
 
 BUILD_DIR=bin
 CRYSTAL=crystal

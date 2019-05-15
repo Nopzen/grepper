@@ -4,7 +4,7 @@ require "time"
 require "./searcher"
 
 module Grepper
-  VERSION = "1.0.0"
+  VERSION = "1.0.1"
 
   directory = Dir.current
   extention = ".txt"

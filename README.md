@@ -9,7 +9,7 @@ A simple commandline tool to search recursively through files of given file exte
   - [Crystal](https://crystal-lang.org/) version: 0.28.0 or higher
 
 ## Installation
-Current version v1.0.0 have only been tested on OSX 10.12.6 but it is possible to [download the source code](https://github.com/Nopzen/grepper/archive/v1.0.0.tar.gz) for version v1.0.0 and compile it with Crystal your self.
+Current version v1.0.1 have only been tested on OSX 10.12.6 but it is possible to [download the source code](https://github.com/Nopzen/grepper/archive/v1.0.1.tar.gz) for version v1.0.1 and compile it with Crystal your self.
 
 ### Self install
 TODO: Write manual installation guide
