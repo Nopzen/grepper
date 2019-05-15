@@ -1,5 +1,6 @@
 # Grepper
 A simple commandline tool to search recursively through files of given file extention
+![Travis Build Status](https://travis-ci.org/Nopzen/grepper.svg?branch=master)
 
 ## Supported Systems
   - Mac OS version: 10.12.6 or higher
