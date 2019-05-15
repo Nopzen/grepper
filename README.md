@@ -1,5 +1,6 @@
 # Grepper
 A simple commandline tool to search recursively through files of given file extention
+
 ![Travis Build Status](https://travis-ci.org/Nopzen/grepper.svg?branch=master)
 
 ## Supported Systems
@@ -9,10 +10,16 @@ A simple commandline tool to search recursively through files of given file exte
   - [Crystal](https://crystal-lang.org/) version: 0.28.0 or higher
 
 ## Installation
-Current version v1.0.1 have only been tested on OSX 10.12.6 but it is possible to [download the source code](https://github.com/Nopzen/grepper/archive/v1.0.1.tar.gz) for version v1.0.1 and compile it with Crystal your self.
 
-### Self install
-TODO: Write manual installation guide
+### Install source from tarball
+[download the source code: version v1.0.1](https://github.com/Nopzen/grepper/archive/v1.0.1.tar.gz) and unpack the tarball, from here you can enter the directory and run `$ make`
+
+### Install source from git
+1. Clone the repository `$ git clone git@github.com:Nopzen/grepper.git`
+2. Enter the directory `$ cd grepper`
+3. Run the make `$ make`
+
+Both of the installations above should install the binary in your `/usr/local/bin` by default, unless `$DESTDIR` or `$prefix` is defined. See the makefile for more information regarding final location of the bin.
 
 ### OSX - With Homebrew
   1. `$ brew tap nopzen/grepper`
